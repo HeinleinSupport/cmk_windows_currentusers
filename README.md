@@ -9,9 +9,9 @@ Tested with:
 - Windows Server 2008 x64
 
 Installation:
-- Copy "windows_sessions.cmd" from the "client-plugin" folder to the 
-  \Check_MK\plugins\ directory
-- Copy "windows_sessions" from the "cmk_plugin" folder to the local checks 
+- Copy "windows_sessions.cmd" from the "agents\windows\plugins" folder to the 
+  \check_mk\plugins\ directory
+- Copy "windows_sessions" from the "checks" folder to the local checks 
   directory in cmk (~/local/share/check_mk/checks/ under OMD)
 
 Restart the Windows Check_MK agent
